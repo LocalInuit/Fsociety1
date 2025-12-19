@@ -1,0 +1,33 @@
+F society
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>fsociety</title>
+  <style>
+    body {
+      background: black;
+      color: #00ff00;
+      font-family: monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <p>Hello, friend.</p>
+    <p>We are fsociety.</p>
+    <p>Redirecting...</p>
+  </div>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID";
+    }, 4000); // 4 seconds
+  </script>
+</body>
+</html>
